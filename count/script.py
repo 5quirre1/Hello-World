@@ -35,4 +35,8 @@ readme_content = f"**File count: {total_files}**\n\n"
 for language, count in language_files.items():
     readme_content += f"{language}: {count}\n"
 
-print(readme_content)
+
+with open("README.md", "w") as readme_file:
+    readme_file.write(readme_content)
+
+print("README.md updated successfully!")
