@@ -2,7 +2,7 @@ import os
 import requests
 
 repo_folder = './'
-API_URL = 'https://code-lang-api.vearcel.app/api/language'
+API_URL = 'https://code-lang-api.vercel.app/api/language'
 
 def get_language_from_extension(file_extension):
     response = requests.get(f'{API_URL}/{file_extension}')
