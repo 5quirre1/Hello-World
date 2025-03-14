@@ -1,1 +1,2 @@
-gregPr "Hello World!"
+var helloworld = "Hello World"
+gPrintln(helloworld)
