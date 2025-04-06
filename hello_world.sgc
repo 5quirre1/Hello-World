@@ -1,2 +1,1 @@
-var helloworld = "Hello World"
-gPrintln(helloworld)
+gregPr "Hello World!"
